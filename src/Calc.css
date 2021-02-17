@@ -1,0 +1,37 @@
+.calc{
+    width: 200px;
+    background-color: rgb(178, 49, 238);
+    background-image: linear-gradient(to right, rgb(48, 228, 108), rgb(63, 150, 207));
+    padding: 20px;
+    border: 4px solid rgb(0, 0, 12);
+    border-radius: 10px;
+}
+
+#peso, #altura{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 12);
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+button{
+    display: block;
+    padding: 15px 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 195px;
+    border: 2px solid rgb(0, 0, 12);
+    border-radius: 5px;
+}
+
+.mensagem{
+    text-align: center;
+}
