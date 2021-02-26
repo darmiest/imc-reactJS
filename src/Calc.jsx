@@ -7,7 +7,7 @@ function MessageIMC(result) {
     else if (result < 24)
         return "Você está no peso normal."
     else if (result < 30)
-        return "Você está acina do peso."
+        return "Você está acima do peso."
     else if (result > 30)
         return "Tome cuidado, você está com sobrepeso!"
 }
